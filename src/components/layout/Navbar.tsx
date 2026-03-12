@@ -149,7 +149,7 @@ export default function Navbar() {
 
           <Link
             href="/apply"
-            className="hidden lg:inline-block bg-purple-700 hover:bg-purple-800 text-white px-5 py-2 rounded-full font-semibold text-sm transition-all duration-200 hover:shadow-lg hover:scale-105 whitespace-nowrap"
+            className="hidden lg:inline-block bg-[#332483] hover:bg-[#4a35b3] text-white px-5 py-2 rounded-full font-semibold text-sm transition-all duration-200 hover:shadow-lg hover:scale-105 whitespace-nowrap"
           >
             APPLY NOW!
           </Link>
@@ -344,7 +344,7 @@ export default function Navbar() {
           <div className="mt-auto pt-4 pb-2">
             <Link
               href="/apply"
-              className="block w-full bg-purple-600 active:bg-purple-800 text-white px-6 py-3.5 rounded-full font-semibold text-center transition-all duration-200"
+              className="block w-full bg-[#332483] active:bg-[#4a35b3] text-white px-6 py-3.5 rounded-full font-semibold text-center transition-all duration-200"
               onClick={() => {
                 setIsMobileMenuOpen(false);
                 setMobileActiveDropdown(null);

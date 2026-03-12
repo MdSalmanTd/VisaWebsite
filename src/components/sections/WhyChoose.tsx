@@ -64,10 +64,10 @@ const WhyChoose = () => {
           {features.map((feature, index) => (
             <div 
               key={index}
-              className="group p-8 bg-gradient-to-br from-gray-50 to-white rounded-2xl border border-gray-100 hover:border-[#332483] hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2"
+              className="group p-8 bg-linear-to-br from-gray-50 to-white rounded-2xl border border-gray-100 hover:border-[#332483] hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2"
             >
               {/* Icon */}
-              <div className="w-16 h-16 mb-6 flex items-center justify-center text-4xl bg-gradient-to-br from-[#332483] to-[#4a35b3] rounded-xl shadow-lg group-hover:scale-110 transition-transform duration-300">
+              <div className="w-16 h-16 mb-6 flex items-center justify-center text-4xl bg-linear-to-br from-[#332483] to-[#4a35b3] rounded-xl shadow-lg group-hover:scale-110 transition-transform duration-300">
                 <span className="filter brightness-0 invert">{feature.icon}</span>
               </div>
               
@@ -84,7 +84,7 @@ const WhyChoose = () => {
         </div>
 
         {/* Stats Section */}
-        <div className="mt-20 grid grid-cols-2 lg:grid-cols-4 gap-8 p-10 bg-gradient-to-br from-[#332483] to-[#4a35b3] rounded-3xl text-white">
+        <div className="mt-20 grid grid-cols-2 lg:grid-cols-4 gap-8 p-10 bg-linear-to-br from-[#332483] to-[#4a35b3] rounded-3xl text-white">
           <div className="text-center">
             <div className="text-4xl md:text-5xl font-bold mb-2">10K+</div>
             <div className="text-purple-200 text-sm md:text-base">Students Placed</div>

@@ -16,7 +16,7 @@ export default function Commitment() {
           </h2>
 
           <p className="text-gray-600 mb-6 leading-relaxed">
-            At Visacore Consultant, we are dedicated to maintaining the highest
+            At Eduvance, we are dedicated to maintaining the highest
             standards of service and integrity. We continuously update our
             knowledge of visa policies and international education systems to
             provide the most accurate and reliable guidance for students who

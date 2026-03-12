@@ -3,15 +3,7 @@ import Link from "next/link"
 import { countries } from "@/data/index"
 
 export default function StudyVisaCountries() {
-  const countryLinks: Record<string, string> = {
-    "Italy": "/our-services/italy",
-    "England": "/our-services/england",
-    "Hungary": "/our-services/hungary",
-    "Denmark": "/our-services/denmark",
-    "South Korea": "/our-services/south-korea",
-    "Finland": "/our-services/finland",
-  }
-
+  
   return (
     <section className="py-20 bg-gray-50">
       
@@ -32,7 +24,7 @@ export default function StudyVisaCountries() {
           {countries.map((country) => (
             <Link 
               key={country.name} 
-              href={countryLinks[country.name] || "#"}
+              href={country.link}
               className="group cursor-pointer"
             >
 

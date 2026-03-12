@@ -35,7 +35,7 @@ const FrequentQ = () => {
   }
 
   return (
-    <section className="py-20 bg-gradient-to-br from-gray-50 via-white to-purple-50">
+    <section className="py-20 bg-linear-to-br from-gray-50 via-white to-purple-50">
       <div className="max-w-7xl mx-auto px-4 md:px-8 lg:px-16">
         {/* Header */}
         <div className="text-left mb-16">
@@ -58,21 +58,21 @@ const FrequentQ = () => {
               </p>
               <div className="space-y-4 mb-8">
                 <div className="flex items-start gap-3">
-                  <div className="w-6 h-6 rounded-full bg-[#332483] flex items-center justify-center flex-shrink-0 mt-0.5">
+                  <div className="w-6 h-6 rounded-full bg-[#332483] flex items-center justify-center shrink-0 mt-0.5">
                     <span className="text-white text-xs">✓</span>
                   </div>
                   <p className="text-gray-700">Expert guidance from certified counselors</p>
                 </div>
                 
                 <div className="flex items-start gap-3">
-                  <div className="w-6 h-6 rounded-full bg-[#332483] flex items-center justify-center flex-shrink-0 mt-0.5">
+                  <div className="w-6 h-6 rounded-full bg-[#332483] flex items-center justify-center shrink-0 mt-0.5">
                     <span className="text-white text-xs">✓</span>
                   </div>
                   <p className="text-gray-700">Free initial consultation and profile evaluation</p>
                 </div>
                 
                 <div className="flex items-start gap-3">
-                  <div className="w-6 h-6 rounded-full bg-[#332483] flex items-center justify-center flex-shrink-0 mt-0.5">
+                  <div className="w-6 h-6 rounded-full bg-[#332483] flex items-center justify-center shrink-0 mt-0.5">
                     <span className="text-white text-xs">✓</span>
                   </div>
                   <p className="text-gray-700">24/7 support throughout your journey</p>
@@ -107,7 +107,7 @@ const FrequentQ = () => {
                   </span>
                   
                   <ChevronDown 
-                    className={`w-5 h-5 text-[#332483] flex-shrink-0 transition-transform duration-300 ${
+                    className={`w-5 h-5 text-[#332483] shrink-0 transition-transform duration-300 ${
                       openIndex === index ? 'rotate-180' : ''
                     }`}
                   />

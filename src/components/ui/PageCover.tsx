@@ -10,12 +10,12 @@ export default function PageCover({ title, subtitle, image }: PageCoverProps) {
   const isFlag = image.includes('/flags/')
   
   return (
-    <section className={`relative w-full ${isFlag ? 'h-[300px] md:h-[400px]' : 'h-[400px] md:h-[500px]'} flex items-center ${isFlag ? 'bg-gradient-to-br from-[#332483] to-[#4a35b3]' : ''}`}>
+    <section className={`relative w-full ${isFlag ? 'h-75 md:h-100' : 'h-100 md:h-125'} flex items-center ${isFlag ? 'bg-linear-to-br from-[#332483] to-[#4a35b3]' : ''}`}>
       
       {/* Background Image or Flag */}
       {isFlag ? (
         <div className="absolute inset-0 flex items-center justify-center opacity-20">
-          <div className="relative w-[300px] h-[200px] md:w-[400px] md:h-[300px]">
+          <div className="relative w-75 h-50 md:w-100 md:h-75">
             <Image
               src={image}
               alt={title}

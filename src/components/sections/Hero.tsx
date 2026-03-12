@@ -36,7 +36,7 @@ export default function Hero() {
       <div className="absolute inset-0 bg-black/50" />
 
       {/* Content */}
-      <div className="relative z-10 max-w-7xl mx-auto px-6 text-white">
+      <div className="relative z-10 max-w-7xl mx-auto px-6 text-white w-full">
 
         <AnimatePresence mode="wait">
 
@@ -46,6 +46,7 @@ export default function Hero() {
             animate={{ x: 0, opacity: 1 }}
             exit={{ x: -100, opacity: 0 }}
             transition={{ duration: 0.6 }}
+            className="text-left"
           >
 
             <h1 className="text-4xl md:text-6xl font-semibold">

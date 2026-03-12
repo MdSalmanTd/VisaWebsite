@@ -18,22 +18,22 @@ export const navLinks = [
         href: "/our-services/study-visa-solution",
 
         submenu: [
-          { label: "Italy", href: "/our-services/italy" },
-          { label: "England", href: "/our-services/england" },
-          { label: "Hungary", href: "/our-services/hungary" },
-          { label: "Denmark", href: "/our-services/denmark" },
-          { label: "South Korea", href: "/our-services/south-korea" },
-          { label: "Finland", href: "/our-services/finland" },
+          { label: "Italy", href: "/our-services/study-visa-solution/italy" },
+          { label: "England", href: "/our-services/study-visa-solution/england" },
+          { label: "Hungary", href: "/our-services/study-visa-solution/hungary" },
+          { label: "Denmark", href: "/our-services/study-visa-solution/denmark" },
+          { label: "South Korea", href: "/our-services/study-visa-solution/south-korea" },
+          { label: "Finland", href: "/our-services/study-visa-solution/finland" },
         ],
       },
 
-      { label: "Medical Visa", href: "/medical-visa" },
-      { label: "Tourist Visa", href: "/tourist-visa" },
-      { label: "Family Visa", href: "/family-visa" },
-      { label: "Business Visa", href: "/business-visa" },
-      { label: "Work Visa", href: "/work-visa" },
-      { label: "Air Ticket & Hotel Booking", href: "/ticket-booking" },
-      { label: "Diplomatic Visa", href: "/diplomatic-visa" },
+      { label: "Medical Visa", href: "/our-services/medical-visa" },
+      { label: "Tourist Visa", href: "/our-services/tourist-visa" },
+      { label: "Family Visa", href: "/our-services/family-visa" },
+      { label: "Business Visa", href: "/our-services/business-visa" },
+      { label: "Work Visa", href: "https://wa.me/8801722381992?text=Hello!%20I%20would%20like%20to%20know%20more%20about%20your%20work%20visa%20services." },
+      { label: "Air Ticket & Hotel Booking", href: "https://wa.me/8801722381992?text=Hello!%20I%20would%20like%20to%20know%20more%20about%20your%20air%20ticket%20and%20hotel%20booking%20services." },
+      { label: "Diplomatic Visa", href: "https://wa.me/8801722381992?text=Hello!%20I%20would%20like%20to%20know%20more%20about%20your%20diplomatic%20visa%20services." },
     ],
   },
 
@@ -44,7 +44,17 @@ export const navLinks = [
 
   {
     label: "Newsflash",
-    href: "/news",
+    href: "/newsflash/gallery",
+    dropdown: [
+      {
+        label: "Gallery",
+        href: "/newsflash/gallery"
+      },
+      {
+        label: "Events & Activities",
+        href: "/events"
+      }
+    ],
   },
 
   {

@@ -5,6 +5,35 @@ import { services } from '@/data'
 import ServicesSection from '@/components/sections/Services'
 import Testimonials from '@/components/sections/TestimonialsSection'
 import Client from '@/components/sections/Client'
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'Our Services - Study Visa, Tourist, Business & Family Visa',
+  description: 'Comprehensive visa services by Eduvance Bangladesh. Study visa solutions for Denmark, Finland, Hungary, Italy, South Korea, England. Tourist visa, business visa, family visa, and medical visa assistance. Expert guidance for international travel and education.',
+  keywords: [
+    'study visa services Bangladesh',
+    'tourist visa consultant',
+    'business visa assistance',
+    'family visa Bangladesh',
+    'medical visa consultant',
+    'Denmark study visa',
+    'Finland student visa',
+    'Hungary education visa',
+    'Italy study visa',
+    'South Korea student visa',
+    'England UK study visa',
+    'visa services Dhaka'
+  ],
+  openGraph: {
+    title: 'Eduvance Services - Complete Visa Solutions',
+    description: 'Study visa, tourist visa, business visa, family visa, and medical visa services. Expert guidance for international education and travel.',
+    url: 'https://eduvancebd.com/our-services',
+    images: ['/images/ourservices.jpg'],
+  },
+  alternates: {
+    canonical: 'https://eduvancebd.com/our-services'
+  }
+}
 
 const page = () => {
   return (

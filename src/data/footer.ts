@@ -20,42 +20,39 @@ export const FOOTER_LINKS = [
 ]
 
 export const FOOTER_CONTACT_INFO = {
-  title: "Bangladesh Office",
+  title: "Dhaka Office",
   links: [
-    { label: "Phone", value: "01629-943014" },
-    { label: "Phone", value: "01719844417" },
-    { label: "Email", value: "info@visacorebd.com" },
+    { label: "Call/WhatsApp", value: "01722-381992" },
+    { label: "Call/WhatsApp", value: "01986-626015" },
+    { label: "Email", value: "eduvancebd@gmail.com" },
+    { label: "Email", value: "info@eduvancebd.com" },
     {
       label: "Address",
-      value: "House 55, Road 06, Block C, Banani, Dhaka",
+      value: "House 594, (Lift 5th), Avenue -05, Road -08, Mirpur DOHS, Dhaka, Bangladesh",
     },
   ],
 }
 
 export const INTERNATIONAL_OFFICE = {
-  title: "International Office",
+  title: "Italy Office",
   links: [
-    { label: "Address", value: "Via Piazza Roma, Ancona Italy" },
-    { label: "Phone", value: "+39 345 8360804" },
-    { label: "Address", value: "Via Frauleto 94, Palma Campania Napoli, Italy" },
-    { label: "Phone", value: "+39 351 2994263" },
+    { label: "Address", value: "Via Enea Silvio Piccolomini 51, 53100 Siena (SI), Italy" },
   ],
 }
 
 export const OPEN_HOURS = {
   title: "Open Hours",
   links: [
-    { label: "Sat - Thu", value: "10:00 – 19:00" },
-    { label: "Friday", value: "Closed" },
+    { label: "Daily", value: "10:00 AM – 7:00 PM" },
   ],
 }
 
 export const SOCIALS = {
   title: "Social",
   links: [
-    "/socials/facebook.svg",
-    "/socials/linkedin.svg",
-    "/socials/instagram.svg",
-    "/socials/youtube.svg",
+    { icon: "/socials/facebook.svg", url: "https://www.facebook.com/eduvance.bd" },
+    { icon: "/socials/instagram.svg", url: "https://www.instagram.com/eduvancebd" },
+    { icon: "/socials/youtube.svg", url: "#" },
+    { icon: "/socials/linkedin.svg", url: "#" },
   ],
 }
