@@ -27,30 +27,13 @@ export const navLinks = [
         ],
       },
 
-      {
-        label: "Exam Preparation",
-        href: "https://wa.me/8801722381992?text=Hello!%20I%20would%20like%20to%20know%20more%20about%20your%20exam%20preparation%20services.",
-      },
-
-      {
-        label: "Admission Assistance",
-        href: "https://wa.me/8801722381992?text=Hello!%20I%20would%20like%20to%20know%20more%20about%20your%20admission%20assistance%20services.",
-      },
-
-      {
-        label: "Interview Training",
-        href: "https://wa.me/8801722381992?text=Hello!%20I%20would%20like%20to%20know%20more%20about%20your%20interview%20training%20services.",
-      },
-
-      {
-        label: "Sponsor Documentation",
-        href: "https://wa.me/8801722381992?text=Hello!%20I%20would%20like%20to%20know%20more%20about%20your%20sponsor%20documentation%20services.",
-      },
-
-      {
-        label: "Accommodation & Visa",
-        href: "https://wa.me/8801722381992?text=Hello!%20I%20would%20like%20to%20know%20more%20about%20your%20accommodation%20and%20visa%20services.",
-      },
+      { label: "Medical Visa", href: "/our-services/medical-visa" },
+      { label: "Tourist Visa", href: "/our-services/tourist-visa" },
+      { label: "Family Visa", href: "/our-services/family-visa" },
+      { label: "Business Visa", href: "/our-services/business-visa" },
+      { label: "Work Visa", href: "https://wa.me/8801722381992?text=Hello!%20I%20would%20like%20to%20know%20more%20about%20your%20work%20visa%20services." },
+      { label: "Air Ticket & Hotel Booking", href: "https://wa.me/8801722381992?text=Hello!%20I%20would%20like%20to%20know%20more%20about%20your%20air%20ticket%20and%20hotel%20booking%20services." },
+      { label: "Diplomatic Visa", href: "https://wa.me/8801722381992?text=Hello!%20I%20would%20like%20to%20know%20more%20about%20your%20diplomatic%20visa%20services." },
     ],
   },
 

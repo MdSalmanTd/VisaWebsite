@@ -31,23 +31,21 @@ export const universities = [
 ]
 
 export const services = [
-  { title: "Student Visa", link: "/our-services/student-visa", icon: "/services/student-visa.jpg" },
-  { title: "Medical Visa", link: "/our-services/medical-visa", icon: "/services/photo2.jpg" },
-  { title: "Tourist Visa", link: "/our-services/tourist-visa", icon: "/services/photo3.jpg" },
-  { title: "Family Visa", link: "/our-services/family-visa", icon: "/services/photo4.jpg" },
-  { title: "Business Visa", link: "/our-services/business-visa", icon: "/services/photo5.jpg" },
-  { title: "Work Visa", link: "https://wa.me/8801722381992?text=Hello!%20I%20would%20like%20to%20know%20more%20about%20your%20work%20visa%20services.", icon: "/services/photo6.jpg" },
-  { title: "Air Ticket & Hotel Booking", link: "https://wa.me/8801722381992?text=Hello!%20I%20would%20like%20to%20know%20more%20about%20your%20air%20ticket%20and%20hotel%20booking%20services.", icon: "/services/photo7.jpg" },
-  { title: "Diplomatic Visa", link: "https://wa.me/8801722381992?text=Hello!%20I%20would%20like%20to%20know%20more%20about%20your%20diplomatic%20visa%20services.", icon: "/services/photo8.jpg" },
+  { title: "Study Visa Solution", link: "/our-services/study-visa-solution", icon: "/services/student-visa.jpg" },
+  { title: "Exam Preparation", link: "https://wa.me/8801722381992?text=Hello!%20I%20would%20like%20to%20know%20more%20about%20your%20exam%20preparation%20services.", icon: "/services/examprep.jpg" },
+  { title: "Admission Assistance", link: "https://wa.me/8801722381992?text=Hello!%20I%20would%20like%20to%20know%20more%20about%20your%20admission%20assistance%20services.", icon: "/services/admission.jpg" },
+  { title: "Interview Training", link: "https://wa.me/8801722381992?text=Hello!%20I%20would%20like%20to%20know%20more%20about%20your%20interview%20training%20services.", icon: "/services/interview.jpg" },
+  { title: "Sponsor Documentation", link: "https://wa.me/8801722381992?text=Hello!%20I%20would%20like%20to%20know%20more%20about%20your%20sponsor%20documentation%20services.", icon: "/services/sponsor.jpg" },
+  { title: "Accommodation & Visa", link: "https://wa.me/8801722381992?text=Hello!%20I%20would%20like%20to%20know%20more%20about%20your%20accommodation%20and%20visa%20services.", icon: "/services/accomodation.jpg" },
 ]
 
 export const countries = [
   { name: "Italy", img:"/flags/Italy.svg",link: "/our-services/study-visa-solution/italy" },
-  { name: "England", img:"/flags/England.svg",link: "/our-services/study-visa-solution/england" },
-  { name: "Hungary", img:"/flags/Hungary.svg",link: "/our-services/study-visa-solution/hungary" },
   { name: "Denmark", img:"/flags/Denmark.svg",link: "/our-services/study-visa-solution/denmark" },
-  { name: "South Korea", img: "/flags/Korea.svg",link: "/our-services/study-visa-solution/south-korea" },
   { name: "Finland", img: "/flags/Finland.svg",link: "/our-services/study-visa-solution/finland" },
+  { name: "USA", img: "/flags/USA.svg",link: "/our-services/study-visa-solution/usa" },
+  { name: "UK", img:"/flags/England.svg",link: "/our-services/study-visa-solution/uk" },
+  { name: "Australia", img: "/flags/Australia.svg",link: "/our-services/study-visa-solution/australia" },
 ]
 
 export const events = [

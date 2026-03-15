@@ -15,7 +15,7 @@ const faqs: FAQ[] = [
   },
   {
     question: "Which countries do you provide services for?",
-    answer: "We assist students in pursuing education across 30+ countries including the USA, UK, Canada, Australia, Germany, France, Italy, Hungary, Denmark, Finland, South Korea, and many more destinations worldwide."
+    answer: "We currently provide services for Italy, Denmark, Finland, USA, UK, and Australia."
   },
   {
     question: "How long does the visa process take?",

@@ -148,7 +148,9 @@ export default function Navbar() {
           </nav>
 
           <Link
-            href="/apply"
+            href="https://wa.me/8801722381992?text=Hello!%20I%20would%20like%20to%20apply%20for%20your%20services."
+            target="_blank"
+            rel="noopener noreferrer"
             className="hidden lg:inline-block bg-[#332483] hover:bg-[#4a35b3] text-white px-5 py-2 rounded-full font-semibold text-sm transition-all duration-200 hover:shadow-lg hover:scale-105 whitespace-nowrap"
           >
             APPLY NOW!
@@ -185,7 +187,7 @@ export default function Navbar() {
       </header>
 
       <div
-        className={`fixed top-0 right-0 h-screen w-70 sm:w-[320px] bg-white shadow-2xl transform transition-transform duration-300 ease-in-out z-60 ${
+        className={`fixed top-0 right-0 h-dvh w-[85vw] max-w-[320px] bg-white shadow-2xl transform transition-transform duration-300 ease-in-out z-60 ${
           isMobileMenuOpen ? "translate-x-0" : "translate-x-full"
         } lg:hidden overflow-y-auto`}
       >
@@ -341,7 +343,7 @@ export default function Navbar() {
             ))}
           </nav>
 
-          <div className="mt-auto pt-4 pb-2">
+          <div className="mt-auto pt-4 pb-[max(env(safe-area-inset-bottom),0.5rem)] shrink-0 bg-white">
             <Link
               href="/apply"
               className="block w-full bg-[#332483] active:bg-[#4a35b3] text-white px-6 py-3.5 rounded-full font-semibold text-center transition-all duration-200"

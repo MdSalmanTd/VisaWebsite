@@ -2,19 +2,23 @@ export const FOOTER_LINKS = [
   {
     title: "Services",
     links: [
-      "Study Visa",
-      "Tourist Visa",
-      "Medical Visa",
-      "Family Visa",
+      "Study Visa Solution",
+      "Exam Preparation",
+      "Admission Assistance",
+      "Interview Training",
+      "Sponsor Documentation",
+      "Accommodation & Visa",
     ],
   },
   {
     title: "Countries",
     links: [
       "Italy",
+      "Denmark",
+      "Finland",
+      "USA",
       "UK",
-      "Hungary",
-      "Canada",
+      "Australia",
     ],
   },
 ]

@@ -1,9 +1,7 @@
 import React from 'react'
 import PageCover from '@/components/ui/PageCover'
-import Testimonials from '@/components/sections/TestimonialsSection'
 import CTA from '@/components/sections/CTA'
 import Reviews from '@/components/sections/Reviews'
-import ReviewCard from '@/components/ui/ReviewCard'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {

@@ -19,7 +19,7 @@ export default function Hero() {
   const item = HERO_CONTENT[index]
 
   return (
-    <section className="relative h-[90vh] flex items-center">
+    <section className="relative h-[90vh] min-h-140 flex items-center overflow-hidden">
 
       {/* Video Background */}
       <video
@@ -36,24 +36,24 @@ export default function Hero() {
       <div className="absolute inset-0 bg-black/50" />
 
       {/* Content */}
-      <div className="relative z-10 max-w-7xl mx-auto px-6 text-white w-full">
+      <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 text-white w-full">
 
         <AnimatePresence mode="wait">
 
           <motion.div
             key={index}
-            initial={{ x: 100, opacity: 0 }}
+            initial={{ x: 40, opacity: 0 }}
             animate={{ x: 0, opacity: 1 }}
-            exit={{ x: -100, opacity: 0 }}
+            exit={{ x: -40, opacity: 0 }}
             transition={{ duration: 0.6 }}
-            className="text-left"
+            className="text-left max-w-2xl min-h-64 md:min-h-72 lg:min-h-64"
           >
 
-            <h1 className="text-4xl md:text-6xl font-semibold">
+            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-semibold leading-tight">
               {item.title}
             </h1>
 
-            <p className="mt-4 max-w-lg text-lg">
+            <p className="mt-4 max-w-lg text-base sm:text-lg">
               {item.description}
             </p>
 
@@ -71,7 +71,7 @@ export default function Hero() {
       </div>
 
       {/* Carousel Controls */}
-      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 z-20 flex gap-2">
+      <div className="absolute bottom-5 sm:bottom-8 left-1/2 -translate-x-1/2 z-20 flex gap-2">
         {HERO_CONTENT.map((_, i) => (
           <button
             key={i}

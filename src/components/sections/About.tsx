@@ -26,11 +26,11 @@ export function AboutBlock({
   const isImageLeft = imagePosition === "left";
 
   return (
-    <div className={`relative overflow-hidden ${backgroundColor}`}>
+    <div className={`relative overflow-hidden max-w-7xl mx-auto ${backgroundColor}`}>
       <div className="grid md:grid-cols-2 gap-0 items-center">
         {/* Image Container */}
         <div
-          className={`relative h-125 md:h-150 lg:h-175 ${
+          className={`relative h-72 sm:h-80 md:h-96 lg:h-112 ${
             isImageLeft ? "md:order-first" : "md:order-last"
           }`}
         >
@@ -38,7 +38,7 @@ export function AboutBlock({
             src={imageSrc}
             alt={imageAlt}
             fill
-            className="object-cover"
+            className="object-cover rounded-lg"
             sizes="(max-width: 768px) 100vw, 50vw"
           />
           <div className="absolute inset-0 bg-linear-to-t from-black/20 to-transparent md:hidden" />

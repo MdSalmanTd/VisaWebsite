@@ -8,7 +8,6 @@ export default function Testimonials() {
   const [currentIndex, setCurrentIndex] = useState(0)
   const [isAnimating, setIsAnimating] = useState(false)
 
-  // Auto-change slider every 8 seconds
   useEffect(() => {
     const interval = setInterval(() => {
       handleSlideChange((currentIndex + 1) % testimonials.length)
@@ -63,50 +62,50 @@ export default function Testimonials() {
   }
 
   return (
-    <section className="py-20 bg-transparent">
+    <section className="py-20 md:py-24 bg-linear-to-b from-white via-[#F9F8FF] to-white">
 
-      <div className="max-w-4xl mx-auto px-6">
+      <div className="max-w-5xl mx-auto px-4 md:px-6">
 
         {/* Section Title */}
-        <div className="text-center mb-12">
-          <p className="text-[#332483] font-semibold text-sm pb-2 tracking-wide">TESTIMONIALS</p>
-          <h2 className="text-4xl font-bold mb-3 text-gray-900">
+        <div className="text-center mb-10 md:mb-12">
+          <p className="text-[#332483] font-semibold text-xs md:text-sm pb-2 tracking-[0.18em]">TESTIMONIALS</p>
+          <h2 className="text-3xl md:text-5xl font-bold mb-3 text-gray-900">
             Success Stories
           </h2>
-          <p className="text-gray-600 text-base">
+          <p className="text-gray-600 text-sm md:text-base">
             Hear from our satisfied students
           </p>
         </div>
 
         {/* Testimonial Card with Navigation Arrows */}
-        <div className="relative">
+        <div className="relative overflow-hidden rounded-3xl border border-[#332483]/10">
           {/* Previous Arrow */}
           <button
             onClick={handlePrevious}
-            className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-4 md:-translate-x-12 z-10 w-12 h-12 rounded-full bg-[#332483] text-white shadow-lg hover:bg-[#4a35b3] transition-all duration-300 hover:scale-110 flex items-center justify-center"
+            className="absolute left-3 md:left-5 top-1/2 -translate-y-1/2 z-10 w-10 h-10 md:w-11 md:h-11 rounded-full bg-white/95 text-[#332483] border border-[#332483]/20 shadow-md hover:bg-[#332483] hover:text-white transition-all duration-300 hover:scale-105 flex items-center justify-center"
             aria-label="Previous testimonial"
           >
-            <ChevronLeft className="w-6 h-6" />
+            <ChevronLeft className="w-5 h-5" />
           </button>
 
           {/* Testimonial Content */}
           <div 
-            className={`rounded-xl p-8 md:p-12 flex flex-col justify-center transition-all duration-1000 ${
+            className={`rounded-3xl px-12 py-10 md:px-20 md:py-14 flex flex-col justify-center min-h-80 md:min-h-90 transition-all duration-700 ${
               isAnimating ? 'opacity-0' : 'opacity-100'
             }`}
           >
             
             {renderStars(testimonials[currentIndex].rating)}
 
-            <p className="text-gray-700 text-lg leading-relaxed mb-8 text-center italic">
+            <p className="text-gray-700 text-base md:text-xl leading-relaxed mb-8 text-center italic max-w-3xl mx-auto">
               "{testimonials[currentIndex].text}"
             </p>
 
             <div className="text-center">
-              <h4 className="text-xl font-bold text-gray-900 mb-1">
+              <h4 className="text-lg md:text-xl font-bold text-gray-900 mb-1">
                 {testimonials[currentIndex].name}
               </h4>
-              <p className="text-[#332483] font-medium text-sm">
+              <p className="text-[#332483] font-medium text-xs md:text-sm tracking-wide uppercase">
                 {testimonials[currentIndex].location}
               </p>
             </div>
@@ -116,23 +115,23 @@ export default function Testimonials() {
           {/* Next Arrow */}
           <button
             onClick={handleNext}
-            className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-4 md:translate-x-12 z-10 w-12 h-12 rounded-full bg-[#332483] text-white shadow-lg hover:bg-[#4a35b3] transition-all duration-300 hover:scale-110 flex items-center justify-center"
+            className="absolute right-3 md:right-5 top-1/2 -translate-y-1/2 z-10 w-10 h-10 md:w-11 md:h-11 rounded-full bg-white/95 text-[#332483] border border-[#332483]/20 shadow-md hover:bg-[#332483] hover:text-white transition-all duration-300 hover:scale-105 flex items-center justify-center"
             aria-label="Next testimonial"
           >
-            <ChevronRight className="w-6 h-6" />
+            <ChevronRight className="w-5 h-5" />
           </button>
         </div>
 
         {/* Navigation Dots */}
-        <div className="flex justify-center gap-2 mt-8">
+        <div className="flex justify-center gap-2.5 mt-7">
           {testimonials.map((_, index) => (
             <button
               key={index}
               onClick={() => handleSlideChange(index)}
               className={`transition-all duration-700 rounded-full ${
                 index === currentIndex
-                  ? 'w-10 h-2.5 bg-[#332483]'
-                  : 'w-2.5 h-2.5 bg-gray-300 hover:bg-gray-400'
+                  ? 'w-8 h-2.5 bg-[#332483]'
+                  : 'w-2.5 h-2.5 bg-gray-300 hover:bg-[#332483]/50'
               }`}
               aria-label={`Go to testimonial ${index + 1}`}
             />
