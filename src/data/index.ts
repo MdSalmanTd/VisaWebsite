@@ -1,10 +1,9 @@
-import { link } from "fs";
-
 // TYPES
 export interface TeamMember {
   id: number
   name: string
   department: string
+  phone: string
   image: string
 };
 
@@ -164,62 +163,51 @@ export const testimonials = [
 export const teamMembers: TeamMember[] = [
   {
     id: 1,
-    name: "Sarah Johnson",
-    department: "CEO & Founder",
-    image: "/images/member1.jpg"
+    name: "Md Ashikul Islam",
+    department: "Founder & CEO",
+    phone: "+880 1986 626015",
+    image: "/teams/Md-Ashikul-Islam Founder & CEO.jpg"
   },
   {
     id: 2,
-    name: "Michael Chen",
-    department: "Head of Admissions",
-  image: "/images/member1.jpg"
+    name: "Wasim Iqbal",
+    department: "Managing Director",
+    phone: "+39 351 153 1646",
+    image: "/teams/Wasim-Iqbal Managing Director.jpg"
   },
   {
     id: 3,
-    name: "Emily Rodriguez",
-    department: "Visa Counselor",
-  image: "/images/member1.jpg"
+    name: "Md Ekramul Hossain",
+    department: "Accounts Manager",
+    phone: "+880 1650 120001",
+    image: "/teams/Md-Ekramul-Hossain Accounts Manager.jpg"
   },
   {
     id: 4,
-    name: "David Kumar",
-    department: "Education Consultant",
-image: "/images/member1.jpg"
+    name: "Md Tomal Munshi",
+    department: "Student Consultant",
+    phone: "+880 1636 498191",
+    image: "/teams/Tomal-Munshi.jpg"
   },
   {
     id: 5,
-    name: "Jessica Williams",
-    department: "Student Relations",
-    image: "/images/member1.jpg"
+    name: "Asma Ahmed",
+    department: "Student Consultant & IELTS Instructor",
+    phone: "+880 01307 984733",
+    image: "/teams/Asma-Ahmed.jpg"
   },
   {
     id: 6,
-    name: "Robert Anderson",
-    department: "Financial Advisor",
-   image: "/images/member1.jpg"
+    name: "Md Mirazul Islam Shafin",
+    department: "Social Media Executive",
+    phone: "+880 1866 179177",
+    image: "/teams/Md-Mirazul-Islam-Shafin.jpg"
   },
   {
     id: 7,
-    name: "Priya Patel",
-    department: "Marketing Director",
-   image: "/images/member1.jpg"
-  },
-  {
-    id: 8,
-    name: "James Thompson",
-    department: "Operations Manager",
-    image: "/images/member1.jpg"
-  },
-  {
-    id: 9,
-    name: "Lisa Martinez",
-    department: "Senior Counselor",
-    image: "/images/member1.jpg"
-  },
-  {
-    id: 10,
-    name: "Daniel Lee",
-    department: "Technical Support",
-  image: "/images/member1.jpg"
+    name: "Sakil Ahmed",
+    department: "Executive Member",
+    phone: "+880 1402 213230",
+    image: "/teams/Md-Sakil-Ahmed.jpg"
   }
 ]

@@ -4,6 +4,7 @@ import "./globals.css";
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
 import FloatIcon from "@/components/FloatIcon";
+import PageTransition from "@/components/layout/PageTransition";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -157,7 +158,7 @@ export default function RootLayout({
         className={`${inter.className} antialiased`}
       >
         <Navbar />
-        {children}
+        <PageTransition>{children}</PageTransition>
         <Footer />
         <FloatIcon />
       </body>

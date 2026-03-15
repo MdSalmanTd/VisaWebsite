@@ -40,6 +40,9 @@ const Team = () => {
                 <p className="text-gray-600 text-sm">
                   {member.department}
                 </p>
+                <p className="text-gray-600 text-sm mt-1">
+                  {member.phone}
+                </p>
               </div>
             </div>
           ))}
