@@ -11,7 +11,10 @@ export default function Consultation() {
   const isInView = useInView(ref, { once: true, margin: "-100px" })
 
   return (
-    <section ref={ref} className="bg-[#2b0f7a] text-white overflow-hidden">
+    <section
+      ref={ref}
+      className="bg-[linear-gradient(135deg,#0053A1_0%,#024490_60%)] text-white overflow-hidden"
+    >
       
       <div className="max-w-7xl mx-auto grid md:grid-cols-2 items-center">
 
@@ -41,7 +44,7 @@ export default function Consultation() {
 
           <h2 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">
             Wish to Study Abroad?<br />
-            <span className="text-yellow-400">Make It Happen!</span>
+            <span className="text-[#8FC9FF]">Make It Happen!</span>
           </h2>
 
           <p className="text-white/90 mb-8 leading-relaxed text-lg">
@@ -52,7 +55,7 @@ export default function Consultation() {
 
           <Link
             href="/contact"
-            className="inline-block bg-white text-[#2b0f7a] px-8 py-4 rounded-lg font-bold hover:bg-yellow-400 transition-all duration-300 shadow-lg"
+            className="inline-block bg-white text-[#0053A1] px-8 py-4 rounded-lg font-bold hover:bg-[#024490] hover:text-white transition-all duration-300 shadow-lg"
           >
             Get a Free Consultation
           </Link>

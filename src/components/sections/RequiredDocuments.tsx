@@ -40,7 +40,7 @@ export default function RequiredDocuments({ countryFlag, countryName, headings, 
             <div className="space-y-4">
               {documents.map((doc, index) => (
                 <div key={index} className="flex items-start gap-3">
-                  <div className="shrink-0 w-6 h-6 rounded-full bg-[#332483] text-white flex items-center justify-center font-semibold text-xs mt-0.5">
+                  <div className="shrink-0 w-6 h-6 rounded-full bg-[#0F4C8A] text-white flex items-center justify-center font-semibold text-xs mt-0.5">
                     {index + 1}
                   </div>
                   <div className="flex-1">
@@ -57,7 +57,7 @@ export default function RequiredDocuments({ countryFlag, countryName, headings, 
               ))}
             </div>
 
-            <div className="mt-6 p-3 bg-blue-50 border-l-4 border-[#332483] rounded">
+            <div className="mt-6 p-3 bg-blue-50 border-l-4 border-[#0F4C8A] rounded">
               <p className="text-xs text-gray-700">
                 <strong>Please note:</strong> Specific requirements may vary depending on the purpose of your visit and the institution you're visiting. It's always recommended to check the official embassy or consulate website for the most accurate and up-to-date information.
               </p>

@@ -80,6 +80,9 @@
   --sidebar-accent-foreground: oklch(0.205 0 0);
   --sidebar-border: oklch(0.922 0 0);
   --sidebar-ring: oklch(0.708 0 0);
+  --edu-primary: linear-gradient(135deg, #0F4C8A, #1E6BB8);
+  --edu-dark: linear-gradient(135deg, #0B3C6D, #145DA0);
+  --edu-soft: linear-gradient(135deg, #1E6BB8, #4A90E2);
 }
 
 .dark {
@@ -143,6 +146,18 @@
 
 .pause-animation:hover {
   animation-play-state: paused;
+}
+
+.bg-edu-primary {
+  background-image: var(--edu-primary);
+}
+
+.bg-edu-dark {
+  background-image: var(--edu-dark);
+}
+
+.bg-edu-soft {
+  background-image: var(--edu-soft);
 }
 
 /* .study-visa {

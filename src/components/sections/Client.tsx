@@ -49,7 +49,7 @@ const Client = () => {
               <p className="text-gray-600 text-sm md:text-base mb-2 font-medium">
                 {stat.label}
               </p>
-              <p className="text-5xl md:text-6xl font-bold text-[#332483]">
+              <p className="text-5xl md:text-6xl font-bold text-[#0F4C8A]">
                 {stat.number}
                 <span className="text-4xl md:text-5xl">{stat.suffix}</span>
               </p>

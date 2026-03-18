@@ -11,7 +11,7 @@ const Reviews = () => {
         
         {/* Section Title */}
         <div className="text-center mb-10 md:mb-12">
-          <p className="text-[#332483] font-semibold text-xs md:text-sm pb-2 tracking-[0.18em]">REVIEWS</p>
+          <p className="text-[#0F4C8A] font-semibold text-xs md:text-sm pb-2 tracking-[0.18em]">REVIEWS</p>
           <h2 className="text-3xl md:text-5xl font-bold mb-3 text-gray-900">
             What Our Clients Say
           </h2>

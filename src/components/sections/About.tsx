@@ -47,7 +47,7 @@ export function AboutBlock({
         {/* Content Container */}
         <div className="p-8 md:p-12 lg:p-16">
           {eyebrow && (
-            <span className="inline-block text-[#332483] font-semibold text-sm tracking-wider uppercase mb-3 bg-white/60 px-4 py-1.5 rounded-full">
+            <span className="inline-block text-[#0F4C8A] font-semibold text-sm tracking-wider uppercase mb-3 bg-white/60 px-4 py-1.5 rounded-full">
               {eyebrow}
             </span>
           )}
@@ -63,7 +63,7 @@ export function AboutBlock({
           {buttonText && (
             <a
               href={buttonLink}
-              className="inline-block bg-[#332483] text-white px-8 py-3.5 rounded-lg font-semibold transition-all duration-300 hover:bg-[#4a35b3] hover:shadow-lg hover:scale-105 transform"
+              className="inline-block bg-[#0F4C8A] text-white px-8 py-3.5 rounded-lg font-semibold transition-all duration-300 hover:bg-[#1E6BB8] hover:shadow-lg hover:scale-105 transform"
             >
               {buttonText}
             </a>

@@ -68,7 +68,7 @@ export default function Testimonials() {
 
         {/* Section Title */}
         <div className="text-center mb-10 md:mb-12">
-          <p className="text-[#332483] font-semibold text-xs md:text-sm pb-2 tracking-[0.18em]">TESTIMONIALS</p>
+          <p className="text-[#0F4C8A] font-semibold text-xs md:text-sm pb-2 tracking-[0.18em]">TESTIMONIALS</p>
           <h2 className="text-3xl md:text-5xl font-bold mb-3 text-gray-900">
             Success Stories
           </h2>
@@ -78,11 +78,11 @@ export default function Testimonials() {
         </div>
 
         {/* Testimonial Card with Navigation Arrows */}
-        <div className="relative overflow-hidden rounded-3xl border border-[#332483]/10">
+        <div className="relative overflow-hidden rounded-3xl border border-[#0F4C8A]/10">
           {/* Previous Arrow */}
           <button
             onClick={handlePrevious}
-            className="absolute left-3 md:left-5 top-1/2 -translate-y-1/2 z-10 w-10 h-10 md:w-11 md:h-11 rounded-full bg-white/95 text-[#332483] border border-[#332483]/20 shadow-md hover:bg-[#332483] hover:text-white transition-all duration-300 hover:scale-105 flex items-center justify-center"
+            className="absolute left-3 md:left-5 top-1/2 -translate-y-1/2 z-10 w-10 h-10 md:w-11 md:h-11 rounded-full bg-white/95 text-[#0F4C8A] border border-[#0F4C8A]/20 shadow-md hover:bg-[#0F4C8A] hover:text-white transition-all duration-300 hover:scale-105 flex items-center justify-center"
             aria-label="Previous testimonial"
           >
             <ChevronLeft className="w-5 h-5" />
@@ -105,7 +105,7 @@ export default function Testimonials() {
               <h4 className="text-lg md:text-xl font-bold text-gray-900 mb-1">
                 {testimonials[currentIndex].name}
               </h4>
-              <p className="text-[#332483] font-medium text-xs md:text-sm tracking-wide uppercase">
+              <p className="text-[#0F4C8A] font-medium text-xs md:text-sm tracking-wide uppercase">
                 {testimonials[currentIndex].location}
               </p>
             </div>
@@ -115,7 +115,7 @@ export default function Testimonials() {
           {/* Next Arrow */}
           <button
             onClick={handleNext}
-            className="absolute right-3 md:right-5 top-1/2 -translate-y-1/2 z-10 w-10 h-10 md:w-11 md:h-11 rounded-full bg-white/95 text-[#332483] border border-[#332483]/20 shadow-md hover:bg-[#332483] hover:text-white transition-all duration-300 hover:scale-105 flex items-center justify-center"
+            className="absolute right-3 md:right-5 top-1/2 -translate-y-1/2 z-10 w-10 h-10 md:w-11 md:h-11 rounded-full bg-white/95 text-[#0F4C8A] border border-[#0F4C8A]/20 shadow-md hover:bg-[#0F4C8A] hover:text-white transition-all duration-300 hover:scale-105 flex items-center justify-center"
             aria-label="Next testimonial"
           >
             <ChevronRight className="w-5 h-5" />
@@ -130,8 +130,8 @@ export default function Testimonials() {
               onClick={() => handleSlideChange(index)}
               className={`transition-all duration-700 rounded-full ${
                 index === currentIndex
-                  ? 'w-8 h-2.5 bg-[#332483]'
-                  : 'w-2.5 h-2.5 bg-gray-300 hover:bg-[#332483]/50'
+                  ? 'w-8 h-2.5 bg-[#0F4C8A]'
+                  : 'w-2.5 h-2.5 bg-gray-300 hover:bg-[#0F4C8A]/50'
               }`}
               aria-label={`Go to testimonial ${index + 1}`}
             />

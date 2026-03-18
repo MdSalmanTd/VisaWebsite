@@ -6,7 +6,7 @@ import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Success Stories - Student Testimonials & Reviews',
-  description: 'Read success stories from students who achieved their study abroad dreams with Eduvance. Real testimonials and reviews from students who successfully obtained study visas for Denmark, Finland, Hungary, Italy, South Korea, and England through our expert consulting.',
+  description: 'Read success stories from students who achieved their study abroad dreams with Eduvance. Real testimonials and reviews from students who successfully obtained study visas for Denmark, Finland, Hungary, Italy, South Korea, and Malta through our expert consulting.',
   keywords: [
     'student success stories Bangladesh',
     'study visa testimonials',

@@ -9,7 +9,7 @@ export default function Universities() {
 
         <h2 className="text-center text-4xl text-[#0F172A] text-shadow-lg
         text-shadow-gray-400 font-semibold mb-10">
-          Collaborating Universities
+          Working With Universities
         </h2>
 
         <p className="text-center text-lg text-gray-700 mb-12">

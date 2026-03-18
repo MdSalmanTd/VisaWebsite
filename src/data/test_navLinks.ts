@@ -21,9 +21,9 @@ export const navLinks = [
           { label: "Italy", href: "/our-services/study-visa-solution/italy" },
           { label: "Denmark", href: "/our-services/study-visa-solution/denmark" },
           { label: "Finland", href: "/our-services/study-visa-solution/finland" },
-          { label: "USA", href: "/our-services/study-visa-solution/usa" },
-          { label: "UK", href: "/our-services/study-visa-solution/uk" },
-          { label: "Australia", href: "/our-services/study-visa-solution/australia" },
+          { label: "Hungary", href: "/our-services/study-visa-solution/hungary" },
+          { label: "South Korea", href: "/our-services/study-visa-solution/south-korea" },
+          { label: "Malta", href: "/our-services/study-visa-solution/malta" },
         ],
       },
 

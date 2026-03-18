@@ -69,7 +69,7 @@ export default function Navbar() {
                 <Link
                   href={item.href}
                   className={`flex items-center gap-1 transition-colors duration-200 py-2 ${
-                    isScrolled ? "hover:text-purple-700" : "hover:text-purple-300"
+                    isScrolled ? "hover:text-blue-700" : "hover:text-blue-300"
                   }`}
                 >
                   {item.label}
@@ -102,7 +102,7 @@ export default function Navbar() {
                         >
                           <Link
                             href={drop.href}
-                            className="flex items-center justify-between px-5 py-2.5 hover:bg-purple-50 hover:text-purple-700 transition-colors duration-150 rounded-md mx-2"
+                            className="flex items-center justify-between px-5 py-2.5 hover:bg-blue-50 hover:text-blue-700 transition-colors duration-150 rounded-md mx-2"
                           >
                             <span>{drop.label}</span>
                             {drop.submenu && (
@@ -130,7 +130,7 @@ export default function Navbar() {
                                   <Link
                                     key={sub.label}
                                     href={sub.href}
-                                    className="block px-4 py-2.5 hover:bg-purple-50 hover:text-purple-700 transition-colors duration-150 rounded-md mx-2"
+                                    className="block px-4 py-2.5 bg-blue-50 hover:text-blue-700 transition-colors duration-150 rounded-md mx-2"
                                   >
                                     {sub.label}
                                   </Link>
@@ -151,7 +151,7 @@ export default function Navbar() {
             href="https://wa.me/8801722381992?text=Hello!%20I%20would%20like%20to%20apply%20for%20your%20services."
             target="_blank"
             rel="noopener noreferrer"
-            className="hidden lg:inline-block bg-[#332483] hover:bg-[#4a35b3] text-white px-5 py-2 rounded-full font-semibold text-sm transition-all duration-200 hover:shadow-lg hover:scale-105 whitespace-nowrap"
+            className="hidden lg:inline-block bg-[#0F4C8A] hover:bg-[#1E6BB8] text-white px-5 py-2 rounded-full font-semibold text-sm transition-all duration-200 hover:shadow-lg hover:scale-105 whitespace-nowrap"
           >
             APPLY NOW!
           </Link>
@@ -232,7 +232,7 @@ export default function Navbar() {
                 <div className="flex items-center justify-between">
                   <Link
                     href={item.href}
-                    className="text-gray-900 font-semibold text-base active:text-purple-700 transition-colors flex-1"
+                    className="text-gray-900 font-semibold text-base active:text-blue-700 transition-colors flex-1"
                     onClick={() => !item.dropdown && setIsMobileMenuOpen(false)}
                   >
                     {item.label}
@@ -267,13 +267,13 @@ export default function Navbar() {
                 </div>
 
                 {item.dropdown && mobileActiveDropdown === item.label && (
-                  <div className="mt-2 mb-1 flex flex-col gap-1 bg-purple-50 rounded-lg p-2">
+                  <div className="mt-2 mb-1 flex flex-col gap-1 bg-blue-50 rounded-lg p-2">
                     {item.dropdown.map((drop) => (
                       <div key={drop.label}>
                         <div className="flex items-center justify-between">
                           <Link
                             href={drop.href}
-                            className="text-gray-800 py-2.5 px-3 active:bg-white active:text-purple-700 rounded-md transition-colors text-sm font-medium flex-1"
+                            className="text-gray-800 py-2.5 px-3 active:bg-white active:text-blue-700 rounded-md transition-colors text-sm font-medium flex-1"
                             onClick={() => {
                               if (!drop.submenu) {
                                 setIsMobileMenuOpen(false);
@@ -323,7 +323,7 @@ export default function Navbar() {
                                 <Link
                                   key={sub.label}
                                   href={sub.href}
-                                  className="text-gray-700 py-2 px-3 active:bg-purple-50 active:text-purple-700 rounded-md transition-colors text-sm"
+                                  className="text-gray-700 py-2 px-3 active:bg-blue-50 active:text-blue-700 rounded-md transition-colors text-sm"
                                   onClick={() => {
                                     setIsMobileMenuOpen(false);
                                     setMobileActiveDropdown(null);
@@ -346,7 +346,7 @@ export default function Navbar() {
           <div className="mt-auto pt-4 pb-[max(env(safe-area-inset-bottom),0.5rem)] shrink-0 bg-white">
             <Link
               href="/apply"
-              className="block w-full bg-[#332483] active:bg-[#4a35b3] text-white px-6 py-3.5 rounded-full font-semibold text-center transition-all duration-200"
+              className="block w-full bg-[#0F4C8A] active:bg-[#1E6BB8] text-white px-6 py-3.5 rounded-full font-semibold text-center transition-all duration-200"
               onClick={() => {
                 setIsMobileMenuOpen(false);
                 setMobileActiveDropdown(null);

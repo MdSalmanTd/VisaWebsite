@@ -41,7 +41,7 @@ const ContactPage = () => {
 
         {/* Heading */}
         <div className="mb-12">
-          <p className="text-xs tracking-widest text-indigo-600 font-semibold uppercase">
+          <p className="text-xs tracking-widest text-[#0053A1] font-semibold uppercase">
             Don't Be Shy
           </p>
 
@@ -59,6 +59,9 @@ const ContactPage = () => {
             <h3 className="font-semibold text-lg mb-4 border-b pb-2">
               Get in Touch
             </h3>
+            <h4 className="font-semibold mb-2">
+                Dhaka Office
+              </h4>
 
             <p className="text-gray-600 mb-6">
               To empower individuals to achieve their global aspirations through
@@ -154,14 +157,14 @@ const ContactPage = () => {
           <div className="flex flex-wrap justify-center gap-4 mt-8">
             <a 
               href="tel:01722381992"
-              className="bg-[#332483] text-white px-8 py-3 rounded-lg font-semibold hover:bg-[#1e1650] transition-colors inline-flex items-center gap-2 shadow-lg"
+              className="bg-[#0F4C8A] text-white px-8 py-3 rounded-lg font-semibold hover:bg-[#0B3C6D] transition-colors inline-flex items-center gap-2 shadow-lg"
             >
               <Phone className="w-5 h-5" />
               Contact Us
             </a>
             <a 
               href="mailto:eduvancebd@gmail.com"
-              className="bg-white border-2 border-[#332483] text-[#332483] px-8 py-3 rounded-lg font-semibold hover:bg-[#332483] hover:text-white transition-colors inline-flex items-center gap-2 shadow-lg"
+              className="bg-white border-2 border-[#0F4C8A] text-[#0F4C8A] px-8 py-3 rounded-lg font-semibold hover:bg-[#0F4C8A] hover:text-white transition-colors inline-flex items-center gap-2 shadow-lg"
             >
               <Mail className="w-5 h-5" />
               Email Us

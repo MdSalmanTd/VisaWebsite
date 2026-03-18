@@ -9,7 +9,7 @@ import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Our Services - Study Visa, Tourist, Business & Family Visa',
-  description: 'Comprehensive visa services by Eduvance Bangladesh. Study visa solutions for Denmark, Finland, Hungary, Italy, South Korea, England. Tourist visa, business visa, family visa, and medical visa assistance. Expert guidance for international travel and education.',
+  description: 'Comprehensive visa services by Eduvance Bangladesh. Study visa solutions for Denmark, Finland, Hungary, Italy, South Korea, Malta. Tourist visa, business visa, family visa, and medical visa assistance. Expert guidance for international travel and education.',
   keywords: [
     'study visa services Bangladesh',
     'tourist visa consultant',
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     'Hungary education visa',
     'Italy study visa',
     'South Korea student visa',
-    'England UK study visa',
+    'Malta study visa',
     'visa services Dhaka'
   ],
   openGraph: {
@@ -49,7 +49,7 @@ const page = () => {
         <div className="max-w-7xl mx-auto px-4 md:px-8 lg:px-16">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
-              <span className="inline-block text-[#332483] font-semibold text-sm tracking-wider uppercase mb-3 bg-purple-50 px-4 py-1.5 rounded-full">
+              <span className="inline-block text-[#0F4C8A] font-semibold text-sm tracking-wider uppercase mb-3 bg-blue-50 px-4 py-1.5 rounded-full">
                 Expert Visa Guidance
               </span>
               

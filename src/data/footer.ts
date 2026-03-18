@@ -16,9 +16,9 @@ export const FOOTER_LINKS = [
       "Italy",
       "Denmark",
       "Finland",
-      "USA",
-      "UK",
-      "Australia",
+      "Hungary",
+      "South Korea",
+      "Malta",
     ],
   },
 ]

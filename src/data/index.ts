@@ -20,13 +20,21 @@ export const SOCIALS = {
 
 
 export const universities = [
-  "/universities/uni1.png",
-  "/universities/uni2.png",
-  "/universities/uni3.png",
-  "/universities/uni4.png",
-  "/universities/uni5.png",
-  "/universities/uni6.png",
-  "/universities/uni7.png"
+  "/universities/1.png",
+  "/universities/2.png",
+  "/universities/3.png",
+  "/universities/4.png",
+  "/universities/5.png",
+  "/universities/6.png",
+  "/universities/7.png",
+  "/universities/8.png",
+  "/universities/9.png",
+  "/universities/10.png",
+  "/universities/11.png",
+   "/universities/13.png",
+  "/universities/14.png",
+  "/universities/15.png",
+  "/universities/18.png",
 ]
 
 export const services = [
@@ -42,9 +50,9 @@ export const countries = [
   { name: "Italy", img:"/flags/Italy.svg",link: "/our-services/study-visa-solution/italy" },
   { name: "Denmark", img:"/flags/Denmark.svg",link: "/our-services/study-visa-solution/denmark" },
   { name: "Finland", img: "/flags/Finland.svg",link: "/our-services/study-visa-solution/finland" },
-  { name: "USA", img: "/flags/USA.svg",link: "/our-services/study-visa-solution/usa" },
-  { name: "UK", img:"/flags/England.svg",link: "/our-services/study-visa-solution/uk" },
-  { name: "Australia", img: "/flags/Australia.svg",link: "/our-services/study-visa-solution/australia" },
+  { name: "Hungary", img: "/flags/Hungary.svg",link: "/our-services/study-visa-solution/hungary" },
+  { name: "South Korea", img: "/flags/Korea.svg",link: "/our-services/study-visa-solution/south-korea" },
+  { name: "Malta", img: "/flags/Malta.svg",link: "/our-services/study-visa-solution/malta" },
 ]
 
 export const events = [
@@ -58,7 +66,7 @@ export const events = [
     time: "10:00 AM - 2:00 PM",
     location: "Eduvance Office, Dhaka",
     category: "Workshop",
-    details: "This comprehensive workshop covered everything students needed to know about studying in Europe. Our experienced consultants provided one-on-one guidance and answered questions about visa processes for Italy, England, Hungary, Denmark, and Finland. Over 120 students received personalized visa roadmaps."
+    details: "This comprehensive workshop covered everything students needed to know about studying in Europe. Our experienced consultants provided one-on-one guidance and answered questions about visa processes for Italy, Malta, Hungary, Denmark, and Finland. Over 120 students received personalized visa roadmaps."
   },
   {
     id: 2,
@@ -70,7 +78,7 @@ export const events = [
     time: "3:00 PM - 6:00 PM",
     location: "Eduvance Conference Hall",
     category: "Networking",
-    details: "An inspiring evening with students who successfully secured their study visas through Eduvance. They shared their journey, challenges, and invaluable tips. Over 80 aspiring students networked and gained first-hand insights from alumni studying in Italy, England, Hungary, and Denmark."
+    details: "An inspiring evening with students who successfully secured their study visas through Eduvance. They shared their journey, challenges, and invaluable tips. Over 80 aspiring students networked and gained first-hand insights from alumni studying in Italy, Malta, Hungary, and Denmark."
   },
   {
     id: 3,
@@ -88,7 +96,7 @@ export const events = [
     id: 4,
     title: "University Fair 2025 - European Education Expo",
     description:
-      "A landmark event featuring direct interaction with admission officers from 18 leading European universities. Students explored study programs, scholarship opportunities, campus life, and received answers from university representatives from Italy, England, Hungary, Denmark, and Finland.",
+      "A landmark event featuring direct interaction with admission officers from 18 leading European universities. Students explored study programs, scholarship opportunities, campus life, and received answers from university representatives from Italy, Malta, Hungary, Denmark, and Finland.",
     image: "/events/event2.jpg",
     date: "September 28, 2025",
     time: "11:00 AM - 5:00 PM",
@@ -128,35 +136,35 @@ export const testimonials = [
     location: "Italy",
     rating: 5,
     text: "Eduvance made my dream of studying in Italy come true! Their professional guidance and support throughout the visa process was exceptional. I highly recommend their services to anyone looking to study abroad.",
-    image: "/images/person.jpg"
+    image: "/images/logo.jpg"
   },
   {
     name: "Nusrat Jahan",
-    location: "England",
+    location: "South Korea",
     rating: 5,
-    text: "Very professional consultancy with excellent customer service. They handled every detail of my UK student visa application with care and expertise. Thank you for making my journey smooth!",
-    image: "/images/person.jpg"
+    text: "Very professional consultancy with excellent customer service. They handled every detail of my South Korea student visa application with care and expertise. Thank you for making my journey smooth!",
+    image: "/images/logo.jpg"
   },
   {
     name: "Karim Uddin",
     location: "Hungary",
     rating: 5,
     text: "Highly recommended visa service! The team at Eduvance was incredibly helpful and knowledgeable. They answered all my questions and made the entire process stress-free. Best decision I made!",
-    image: "/images/person.jpg"
+    image: "/images/logo.jpg"
   },
   {
     name: "Fatima Rahman",
     location: "Denmark",
     rating: 5,
     text: "Outstanding service from start to finish! Eduvance helped me secure my student visa to Denmark without any hassle. Their expertise and dedication are truly commendable.",
-    image: "/images/person.jpg"
+    image: "/images/logo.jpg"
   },
   {
     name: "Shakib Hassan",
     location: "Finland",
     rating: 5,
     text: "I couldn't have asked for better support. The team guided me through every step and ensured my visa application was perfect. Now I'm studying in Finland thanks to Eduvance!",
-    image: "/images/person.jpg"
+    image: "/images/logo.jpg"
   },
 ]
 

@@ -11,10 +11,10 @@ interface Props {
 
 const ReviewCard = ({ name, location, rating, text, image }: Props) => {
   return (
-    <div className="h-full bg-white border border-[#332483]/10 rounded-2xl p-6 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
+    <div className="h-full bg-white border border-[#0F4C8A]/10 rounded-2xl p-6 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
 
       <div className="flex items-center justify-between mb-4">
-        <span className="text-xs font-semibold tracking-wide text-[#332483] bg-[#332483]/8 px-3 py-1 rounded-full">
+        <span className="text-xs font-semibold tracking-wide text-[#0F4C8A] bg-[#0F4C8A]/8 px-3 py-1 rounded-full">
           Verified Review
         </span>
         <div className="flex items-center gap-1 text-sm">
@@ -35,12 +35,12 @@ const ReviewCard = ({ name, location, rating, text, image }: Props) => {
             alt={name}
             width={46}
             height={46}
-            className="rounded-full object-cover ring-2 ring-[#332483]/15"
+            className="rounded-full object-cover ring-2 ring-[#0F4C8A]/15"
           />
 
           <div>
             <p className="font-semibold text-gray-900 text-sm md:text-base">{name}</p>
-            <p className="text-xs text-[#332483] font-medium tracking-wide uppercase">{location}</p>
+            <p className="text-xs text-[#0F4C8A] font-medium tracking-wide uppercase">{location}</p>
           </div>
         </div>
 

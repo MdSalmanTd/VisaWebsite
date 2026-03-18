@@ -15,7 +15,7 @@ const faqs: FAQ[] = [
   },
   {
     question: "Which countries do you provide services for?",
-    answer: "We currently provide services for Italy, Denmark, Finland, USA, UK, and Australia."
+    answer: "We currently provide services for Italy, Denmark, Finland, Hungary, South Korea, and Malta."
   },
   {
     question: "How long does the visa process take?",
@@ -35,11 +35,11 @@ const FrequentQ = () => {
   }
 
   return (
-    <section className="py-20 bg-linear-to-br from-gray-50 via-white to-purple-50">
+    <section className="py-20 bg-linear-to-br from-gray-50 via-white to-blue-50">
       <div className="max-w-7xl mx-auto px-4 md:px-8 lg:px-16">
         {/* Header */}
         <div className="text-left mb-16">
-          <span className="inline-block text-[#332483] font-semibold text-sm tracking-wider uppercase mb-3 bg-white px-4 py-1.5 rounded-full shadow-sm">
+          <span className="inline-block text-[#0F4C8A] font-semibold text-sm tracking-wider uppercase mb-3 bg-white px-4 py-1.5 rounded-full shadow-sm">
             FAQ
           </span>
           
@@ -58,21 +58,21 @@ const FrequentQ = () => {
               </p>
               <div className="space-y-4 mb-8">
                 <div className="flex items-start gap-3">
-                  <div className="w-6 h-6 rounded-full bg-[#332483] flex items-center justify-center shrink-0 mt-0.5">
+                  <div className="w-6 h-6 rounded-full bg-[#0F4C8A] flex items-center justify-center shrink-0 mt-0.5">
                     <span className="text-white text-xs">✓</span>
                   </div>
                   <p className="text-gray-700">Expert guidance from certified counselors</p>
                 </div>
                 
                 <div className="flex items-start gap-3">
-                  <div className="w-6 h-6 rounded-full bg-[#332483] flex items-center justify-center shrink-0 mt-0.5">
+                  <div className="w-6 h-6 rounded-full bg-[#0F4C8A] flex items-center justify-center shrink-0 mt-0.5">
                     <span className="text-white text-xs">✓</span>
                   </div>
                   <p className="text-gray-700">Free initial consultation and profile evaluation</p>
                 </div>
                 
                 <div className="flex items-start gap-3">
-                  <div className="w-6 h-6 rounded-full bg-[#332483] flex items-center justify-center shrink-0 mt-0.5">
+                  <div className="w-6 h-6 rounded-full bg-[#0F4C8A] flex items-center justify-center shrink-0 mt-0.5">
                     <span className="text-white text-xs">✓</span>
                   </div>
                   <p className="text-gray-700">24/7 support throughout your journey</p>
@@ -83,7 +83,7 @@ const FrequentQ = () => {
                 <p className="text-gray-700 font-semibold mb-3">Still need help?</p>
                 <a 
                   href="#contact"
-                  className="inline-block bg-[#332483] text-white px-6 py-3 rounded-lg font-semibold transition-all duration-300 hover:bg-[#4a35b3] hover:shadow-lg"
+                  className="inline-block bg-[#0F4C8A] text-white px-6 py-3 rounded-lg font-semibold transition-all duration-300 hover:bg-[#1E6BB8] hover:shadow-lg"
                 >
                   Contact Our Team
                 </a>
@@ -107,7 +107,7 @@ const FrequentQ = () => {
                   </span>
                   
                   <ChevronDown 
-                    className={`w-5 h-5 text-[#332483] shrink-0 transition-transform duration-300 ${
+                    className={`w-5 h-5 text-[#0F4C8A] shrink-0 transition-transform duration-300 ${
                       openIndex === index ? 'rotate-180' : ''
                     }`}
                   />

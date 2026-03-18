@@ -37,7 +37,7 @@ export default function StudyVisaCountries() {
                     className="object-contain transition-transform duration-500 group-hover:scale-110"
                   />
                 </div>
-                <h3 className="text-gray-800 font-semibold text-sm text-center group-hover:text-[#332483] transition-colors duration-300">
+                <h3 className="text-gray-800 font-semibold text-sm text-center group-hover:text-[#0F4C8A] transition-colors duration-300">
                   {country.name}
                 </h3>
               </div>

@@ -130,7 +130,7 @@ export const touristVisaDocuments_England = [
   },
   {
     title: "Two passport-sized color photos",
-    description: "Meeting UK requirements."
+    description: "Meeting destination-country requirements."
   },
   {
     title: "Proof of English language proficiency",
@@ -211,7 +211,7 @@ export const familyVisaDocuments_England = [
   },
   {
     title: "Passport Photos",
-    description: "Provide two passport-sized color photos that meet UK visa requirements."
+    description: "Provide two passport-sized color photos that meet visa requirements."
   },
   {
     title: "English Language Proficiency",
@@ -231,7 +231,7 @@ export const familyVisaDocuments_England = [
   },
   {
     title: "Travel Insurance",
-    description: "Obtain comprehensive travel insurance that covers your entire stay in the UK."
+    description: "Obtain comprehensive travel insurance that covers your entire stay in your destination country."
   }
 ]
 

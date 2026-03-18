@@ -1,37 +1,44 @@
-import React from 'react'
-import PageCover from '@/components/ui/PageCover'
-import { AboutBlock } from '@/components/sections/About'
-import Team from '@/components/sections/Team'
-import FrequentQ from '@/components/sections/FrequentQ'
-import type { Metadata } from 'next'
+import React from "react";
+import PageCover from "@/components/ui/PageCover";
+import { AboutBlock } from "@/components/sections/About";
+import Ceo from "@/components/sections/Ceo";
+import Team from "@/components/sections/Team";
+import FrequentQ from "@/components/sections/FrequentQ";
+import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: 'About Us - Our Story & Mission',
-  description: 'Learn about Eduvance - your trusted partner for study abroad consulting in Bangladesh. Discover our journey, mission, and commitment to helping students achieve their international education dreams with expert guidance and personalized support.',
+  title: "About Us - Our Story & Mission",
+  description:
+    "Learn about Eduvance - your trusted partner for study abroad consulting in Bangladesh. Discover our journey, mission, and commitment to helping students achieve their international education dreams with expert guidance and personalized support.",
   keywords: [
-    'about Eduvance',
-    'study abroad consultant story',
-    'education consulting Bangladesh',
-    'our mission vision',
-    'study visa expert team',
-    'international education consulting team'
+    "about Eduvance",
+    "study abroad consultant story",
+    "education consulting Bangladesh",
+    "our mission vision",
+    "study visa expert team",
+    "international education consulting team",
   ],
   openGraph: {
-    title: 'About Eduvance - Your Trusted Study Abroad Partner',
-    description: 'Learn about our journey and mission to help students achieve their international education dreams.',
-    url: 'https://eduvancebd.com/about',
-    images: ['/images/about.jpg'],
+    title: "About Eduvance - Your Trusted Study Abroad Partner",
+    description:
+      "Learn about our journey and mission to help students achieve their international education dreams.",
+    url: "https://eduvancebd.com/about",
+    images: ["/images/about.jpg"],
   },
   alternates: {
-    canonical: 'https://eduvancebd.com/about'
-  }
-}
+    canonical: "https://eduvancebd.com/about",
+  },
+};
 
 const page = () => {
   return (
     <>
-      <PageCover title="About Us" subtitle="Learn more about our journey and mission" image="/images/about.jpg" />
-      
+      <PageCover
+        title="About Us"
+        subtitle="Learn more about our journey and mission"
+        image="/images/about.jpg"
+      />
+
       {/* First Block - Image Left */}
       <AboutBlock
         imageSrc="/images/overview.jpg"
@@ -53,12 +60,13 @@ const page = () => {
         description="Eduvance was founded with a vision to make international education accessible and achievable for students worldwide. Recognizing the challenges of navigating complex visa processes and selecting the right programs, we set out to offer expert guidance and personalized support. Over the years, our dedicated team has helped countless students realize their academic dreams, transforming aspirations into reality. Our story is one of commitment, passion, and a relentless drive to empower students to reach their full potential on a global stage."
       />
 
+      <Ceo />
+      
       <Team />
 
-    <FrequentQ />
-
+      <FrequentQ />
     </>
-  )
-}
+  );
+};
 
-export default page
+export default page;

@@ -12,9 +12,10 @@ import {
 
 export default function Footer() {
   return (
-    <footer className="bg-[url('/images/footer.png')] bg-cover bg-center text-white flex justify-center relative">
+    <footer className="bg-[url('/images/footer.jpg')] bg-cover bg-center text-white flex justify-center relative">
+      
       {/* Dark overlay for better text visibility */}
-      <div className="absolute inset-0 bg-black/50"></div>
+      <div className="absolute inset-0 bg-black/80 "></div>
 
       <div className="max-w-7xl w-full px-6 py-16 flex flex-col gap-14 relative z-10">
 

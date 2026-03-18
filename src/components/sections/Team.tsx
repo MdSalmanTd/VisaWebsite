@@ -7,7 +7,7 @@ const Team = () => {
     <section className='py-20 bg-gray-50'>
       <div className="max-w-7xl mx-auto px-4 md:px-8 lg:px-16">
         <div className="text-left mb-16">
-          <span className="inline-block text-[#332483] font-semibold text-sm tracking-wider uppercase mb-3 bg-white px-4 py-1.5 rounded-full shadow-sm">
+          <span className="inline-block text-[#0F4C8A] font-semibold text-sm tracking-wider uppercase mb-3 bg-white px-4 py-1.5 rounded-full shadow-sm">
             Our People
           </span>
           

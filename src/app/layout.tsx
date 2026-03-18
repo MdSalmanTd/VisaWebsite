@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     "study visa consultant Dhaka",
     "international education consulting",
     "visa assistance study abroad",
-    "student visa Denmark Finland Hungary Italy South Korea England",
+    "student visa Denmark Finland Hungary Italy South Korea Malta",
     "study in Europe from Bangladesh",
     "overseas education consultant",
     "Eduvance Bangladesh",
@@ -53,7 +53,7 @@ export const metadata: Metadata = {
     url: "https://eduvancebd.com",
     siteName: "Eduvance",
     title: "Eduvance - Your Trusted Study Abroad Consultant in Bangladesh",
-    description: "Expert study abroad consulting services in Bangladesh. Visa assistance for Denmark, Finland, Hungary, Italy, South Korea, and England. Personalized guidance for your international education journey.",
+    description: "Expert study abroad consulting services in Bangladesh. Visa assistance for Denmark, Finland, Hungary, Italy, South Korea, and Malta. Personalized guidance for your international education journey.",
     images: [
       {
         url: "/images/og-image.jpg",
@@ -101,7 +101,7 @@ export default function RootLayout({
     "alternateName": "Eduvance Bangladesh",
     "url": "https://eduvancebd.com",
     "logo": "https://eduvancebd.com/images/logo.png",
-    "description": "Expert study abroad consulting services in Bangladesh. Visa assistance for Denmark, Finland, Hungary, Italy, South Korea, and England.",
+    "description": "Expert study abroad consulting services in Bangladesh. Visa assistance for Denmark, Finland, Hungary, Italy, South Korea, and Malta.",
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "Road-9, House-47, Mirpur DOHS",

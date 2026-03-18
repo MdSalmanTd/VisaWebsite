@@ -7,7 +7,7 @@ export default function Commitment() {
 
         {/* Left Content */}
         <div>
-          <p className="text-sm text-indigo-600 font-semibold mb-2">
+          <p className="text-sm text-[#0053A1] font-semibold mb-2">
             WHY CHOOSE US?
           </p>
 

@@ -28,7 +28,7 @@ const GalleryPage = () => {
           
           {/* Section Heading */}
           <div className="text-center mb-12">
-            <p className="text-[#332483] font-semibold text-sm pb-2 tracking-wide">OUR GALLERY</p>
+            <p className="text-[#0F4C8A] font-semibold text-sm pb-2 tracking-wide">OUR GALLERY</p>
             <h2 className="text-4xl font-bold mb-3 text-gray-900">
               Moments & Memories
             </h2>
@@ -45,7 +45,7 @@ const GalleryPage = () => {
                 onClick={() => setSelectedCategory(category)}
                 className={`px-6 py-2 rounded-full font-medium transition-all duration-300 ${
                   selectedCategory === category
-                    ? 'bg-[#332483] text-white shadow-lg'
+                    ? 'bg-[#0F4C8A] text-white shadow-lg'
                     : 'bg-white text-gray-700 hover:bg-gray-100 border border-gray-200'
                 }`}
               >
