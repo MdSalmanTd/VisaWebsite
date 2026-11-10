@@ -177,13 +177,6 @@ export const teamMembers: TeamMember[] = [
     image: "/teams/Md-Ashikul-Islam Founder & CEO.jpg"
   },
   {
-    id: 2,
-    name: "Wasim Iqbal",
-    department: "Managing Director",
-    phone: "+39 351 153 1646",
-    image: "/teams/Wasim-Iqbal Managing Director.jpg"
-  },
-  {
     id: 3,
     name: "Md Ekramul Hossain",
     department: "Accounts Manager",
@@ -196,13 +189,6 @@ export const teamMembers: TeamMember[] = [
     department: "Student Consultant",
     phone: "+880 1636 498191",
     image: "/teams/Tomal-Munshi.jpg"
-  },
-  {
-    id: 5,
-    name: "Asma Ahmed",
-    department: "Student Consultant & IELTS Instructor",
-    phone: "+880 01307 984733",
-    image: "/teams/Asma-Ahmed.jpg"
   },
   {
     id: 6,
